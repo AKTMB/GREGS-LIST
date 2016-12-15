@@ -13,6 +13,7 @@ nav {
 	width: 100%;
 	background-color: #96bbf7;
 	height: 60px;
+	margin-bottom: 20px;
 }
 
 .logo {
@@ -63,7 +64,6 @@ input {
 	border: 1px solid #96bbf7;
 	height: 30px;
 	width: 450px;
-	padding-top: 15px;
 	font-size: 20px;
 	display: inline-block;
 
@@ -73,9 +73,8 @@ input {
 	border-radius: 3px;
 	border: 1px solid #96bbf7;
 	height: 28px;
-	margin-top: 20px;
-	padding-top: 0px;
 	display: inline-block;
+	margin-top: 20px;
 }
 
 .pre {
@@ -83,8 +82,9 @@ input {
 	height: 20px;
 	border-radius: 3px 0px 0px 3px;
 	border: 1px solid #96bbf7;
-	margin-left: 100px;
-	padding-top: 3px;
+	margin-left: 90px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	text-align: center;
 	display: inline-block;
 }
@@ -94,7 +94,8 @@ input {
 	height: 20px;
 	border-radius: 0px 0px 0px 0px;
 	border: 1px solid #96bbf7;
-	padding-top: 3px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	text-align: center;
 	display: inline-block;
 }
@@ -104,7 +105,8 @@ input {
 	height: 20px;
 	border-radius: 0px 3px 3px 0px;
 	border: 1px solid #96bbf7;
-	padding-top: 3px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	text-align: center;
 	display: inline-block;
 }
@@ -112,9 +114,21 @@ input {
 .pagenav {
 	margin-top: 30px;
 }
+.search-zone{
+	position: relative;
+	padding-bottom: 30px;
+}
+
 .search {
 	margin-top: 30px;
-	margin-left: -120px;
+	margin-left: 90px;
+	display: inline-block;
+}
+.searchi {
+	position: absolute;
+	top: 10px;
+	margin-top: 0px;
+	margin-left: 0px;
 	display: inline-block;
 }
 .icon {
